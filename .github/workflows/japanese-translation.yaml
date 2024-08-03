@@ -5,7 +5,7 @@ on:
     branches:
       - master
     paths:
-      - "./EIPS/*.md"
+      - "EIPS/*.md"
 env:
   MODEL_NAME: claude-3-haiku-20240307
   MAX_OUTPUT_TOKEN: 4096
